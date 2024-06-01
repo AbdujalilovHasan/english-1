@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    font-family: Work Sans;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gramatic ol {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 18px;
+    background: none;
+    opacity: 60%;
+    border: 1px solid #808080;
+    color: #fff;
+}
+
+li {
+    margin-top: 22px;
+}
+
+.correct {
+    border: 2px solid green;
+    box-shadow: 2px 2px 60px green;
+}
+
+.incorrect {
+    border: 2px solid red;
+    box-shadow: 2px 2px 60px red;
+}
+
+.btn-next {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-next button {
+    font-size: 22px;
+    padding: 8px 20px;
+    width: 160px;
+    height: 48px;
+    background: #fff;
+    margin-bottom: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+@media (max-width: 321px) {
+    
+    body li {
+        font-family: 16px;
+    }
+
+    .gramatic ol {
+        flex-direction: column;
+        margin-left: 10px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 376px) {
+    
+    body li {
+        font-family: 16px;
+    }
+
+    .gramatic ol {
+        flex-direction: column;
+        margin-left: 10px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 426px) {
+    
+    body li {
+        font-family: 16px;
+    }
+
+    .gramatic ol {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
